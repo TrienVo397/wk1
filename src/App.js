@@ -1,14 +1,11 @@
-import GridTable from './component/grid_table//GridTable';
 import './App.css';
-import Carousel from './component/carousel/child_component/Carousel';
+import LazyLoadTable from './component/lazy_load_table_on_click/LazyLoadTableOnClick';
 
 function App() {
 
   return (
     <div className="App">
-      <Carousel/>
-      <GridTable/>
-      
+      <LazyLoadTable></LazyLoadTable>
     </div>
   );
 }

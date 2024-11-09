@@ -12,7 +12,6 @@ const GridTable=()=>{
                         {users.map((user,index) =>(
                           <GridTableCard user ={user} key={index}/>
                         ))}
-
       </div>
      )
 }
